@@ -29,6 +29,11 @@
     color: yellow
 }
 
+.main .img_fragua {
+    max-width: 600px;
+    height: auto !important;
+}
+
 .main .img_electrolit {
     max-width: 180px !important;
     height: auto !important;
@@ -47,6 +52,11 @@
     .main {
         background-position: center center;
         background-size: cover;
+    }
+
+    .main .img_fragua {
+        max-width: 100% !important;
+        height: auto !important;
     }
 }
 
